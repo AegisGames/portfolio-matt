@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(34, 34, 34);
+}
+
+img{
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+header{
+    max-height: 200px;
+}
+
+.list{
+    columns: 300px;
+    column-gap: 3px;
+}
