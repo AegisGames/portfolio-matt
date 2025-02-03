@@ -5,16 +5,22 @@ body{
 img{
     width: 100%;
     margin-bottom: 1px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
-header{
-    max-height: 200px;
-}
+
+
 
 .list{
-    
-    columns: 300px;
-    
+    width: 200;
+    columns: 400px;
     column-gap: 5px;
+}
+
+@media (max-width: 600px){
+    .list{
+        width: 200;
+        columns: 150px;
+        column-gap: 5px;
+    }
 }
