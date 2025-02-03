@@ -8,12 +8,16 @@ img{
     border-radius: 5px;
 }
 
-
+header{
+    background-image: url(img/A.png);
+    background-size: cover;
+    height: 200px;
+}
 
 
 .list{
     width: 200;
-    columns: 400px;
+    column-count: 4;
     column-gap: 5px;
 }
 
@@ -22,5 +26,10 @@ img{
         width: 200;
         columns: 150px;
         column-gap: 5px;
+    }
+
+    header{
+        
+        height: 100px;
     }
 }
