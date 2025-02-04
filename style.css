@@ -12,14 +12,18 @@ header{
     background-image: url(img/A.png);
     background-size: cover;
     height: 200px;
+    margin-bottom: 10px;
 }
 
 
 .list{
-    width: 200;
+    
     column-count: 4;
     column-gap: 5px;
 }
+
+
+
 
 @media (max-width: 600px){
     .list{
