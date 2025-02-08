@@ -126,7 +126,7 @@ header{
         display: flex;
         justify-content: center;
         width: 100%;
-        padding: 250px 0px;
+        padding:50px 0px;
         border-radius: 0px;
         margin: 2px 2px;
         transition: 0.5s;
