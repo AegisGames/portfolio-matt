@@ -57,7 +57,7 @@ header{
     display: flex;
     justify-content: center;
     width: 1000px;
-    padding: 250px 0px;
+    padding: 330px 0px;
     border-radius: 0px;
     margin: 15px 2px;
     transition: 0.5s;
@@ -102,7 +102,21 @@ header{
 }
 
 
-
+@media (max-width: 1000px){
+    .category .card{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        padding:150px 0px;
+        border-radius: 0px;
+        margin: 2px 2px;
+        transition: 0.5s;
+        background-size: cover;  /* Ensures the image covers the whole card */
+        background-position: center;  /* Centers the image */
+        background-repeat: no-repeat; /* Prevents tiling */
+    
+    }
+}
 
 @media (max-width: 600px){
     .list{
