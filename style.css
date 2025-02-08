@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+
+
 body{
     background-color: rgb(20, 20, 20);
     background-size: cover;
@@ -138,7 +140,7 @@ footer {
         max-width: 100%;
         overflow-x: hidden;
     }
-    
+
     .category .card{
         display: flex;
         justify-content: center;
@@ -163,6 +165,10 @@ footer {
 }
 
 @media (max-width: 600px){
+    .btn{
+        padding: 0.5em 0.2em;
+        
+    }
     .list{
 
         columns: 150px;
