@@ -2,19 +2,20 @@
 body{
     background-color: rgb(20, 20, 20);
     background-size: cover;
-    margin: 0;
-    
+    margin: 0;    
 }
+
 section{
     margin-left: 20px;
     margin-right: 20px;
 }
 
+
 /*.background-overlay {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100%;s
     height: 100%;
     background-image: url('img/pngegg.png');
     background-size: 100px 100px;
@@ -39,7 +40,6 @@ header{
 
 }
 
-
 .category{
     display: flex;
     justify-content: space-around;
@@ -51,7 +51,6 @@ header{
     color: aliceblue;
     text-shadow: 0 0 10px rgba(105, 104, 104, 0.8), 0 0 20px rgba(0, 0, 0, 0.6);
 }
-
 
 .category .card{
     display: flex;
@@ -68,7 +67,7 @@ header{
 }
 
 .category .card:nth-child(1) {
-    background-image: url('img/RGB\ Pattern.png');
+    background-image: url('img/lafeve.png');
 }
 
 .category .card:nth-child(2) {
@@ -79,12 +78,8 @@ header{
     background-image: url('img/fqsd.png');
 }
 
-
-
-
 .category:hover .card {
-    filter: grayscale(0.7);
-    
+    filter: grayscale(0.8);
 }
 
 .category .card:hover {
