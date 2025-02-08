@@ -10,12 +10,20 @@ section{
     margin-right: 20px;
 }
 
+.navbar{
+    position: fixed;
+    top: 3%;
+    right: 3%;
+    width: 150px;
+    z-index: 9999;
+    transition: 0.5s;
+}
 
 /*.background-overlay {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;s
+    width: 100%;
     height: 100%;
     background-image: url('img/pngegg.png');
     background-size: 100px 100px;
@@ -63,6 +71,7 @@ header{
     background-size: cover;  /* Ensures the image covers the whole card */
     background-position: center;  /* Centers the image */
     background-repeat: no-repeat; /* Prevents tiling */
+    
 
 }
 
@@ -79,11 +88,10 @@ header{
 }
 
 .category:hover .card {
-    filter: grayscale(0.8);
+    filter: grayscale(0.8) blur(1px);
 }
 
 .category .card:hover {
-    /*flex: 1.5; /* Increase width of the hovered card */
     filter: none; /* Remove grayscale effect */
 }
 
@@ -111,6 +119,14 @@ header{
         background-repeat: no-repeat; /* Prevents tiling */
     
     }
+    .navbar{
+        position: fixed;
+        top: 3%;
+        right: 3%;
+        width: 100px;
+        z-index: 9999;
+        transition: 0.5s;
+    }
 }
 
 @media (max-width: 600px){
@@ -119,6 +135,10 @@ header{
         columns: 150px;
         column-gap: 5px;
         margin: 0;
+    }
+    section{
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     header{
@@ -144,4 +164,14 @@ header{
         background-repeat: no-repeat; /* Prevents tiling */
     
     }
+    
+    .navbar{
+        position: fixed;
+        top: 3%;
+        right: 3%;
+        width: 50px;
+        z-index: 9999;
+        transition: 0.5s;
+    }
+
 }
