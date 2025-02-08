@@ -104,6 +104,29 @@ header{
     column-gap: 5px;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin: 20px;
+}
+
+.btn{
+    padding: 0.8em 1.5em;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 200ms ease-in-out;
+}
+
+.bug-text{
+    user-select: none;
+    width: 9em;  
+}
+
+
 
 @media (max-width: 1000px){
     .category .card{
