@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 
 body{
     background-color: rgb(20, 20, 20);
@@ -104,12 +107,14 @@ header{
     column-gap: 5px;
 }
 
-footer{
+footer {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center; /* Or space-between */
     align-items: center;
-    gap: 2em;
-    margin: 20px;
+    margin-bottom: 20px;
+    overflow: hidden; /* Prevent content from overflowing */
+    max-width: 100%;
 }
 
 .btn{
@@ -129,6 +134,11 @@ footer{
 
 
 @media (max-width: 1000px){
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+    
     .category .card{
         display: flex;
         justify-content: center;
@@ -154,7 +164,7 @@ footer{
 
 @media (max-width: 600px){
     .list{
-        width: 200;
+
         columns: 150px;
         column-gap: 5px;
         margin: 0;
