@@ -1,0 +1,17 @@
+@keyframes load {
+    from {
+        transform: translateY(-300px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+header{
+    background-image: url(img/A.png);
+    background-size: cover;
+    height: 200px;
+    margin-bottom: 10px;
+    animation-name: load;
+    animation-duration: 2s;
+}

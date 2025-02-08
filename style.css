@@ -1,5 +1,9 @@
+
+
 body{
     background-color: rgb(17, 17, 17);
+    background-image: url(img/pngegg.png);
+    background-size: cover;
 }
 
 img{
@@ -13,7 +17,41 @@ header{
     background-size: cover;
     height: 200px;
     margin-bottom: 10px;
+    border-radius: 5px;
 }
+
+
+.category{
+    display: flex;
+    justify-content: space-around;
+}
+
+.category .card{
+    display: flex;
+    justify-content: center;
+    background-image: url(img/josman-s-poster.jpg);
+    background-size: auto;
+    width: 500px;
+    padding: 150px 0px;
+    border-radius: 10px;
+    margin: 4px;
+    transition: 0.5s;
+}
+
+.category .card h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+
+.category:hover .card{
+    
+    filter: grayscale(0.7);
+}
+.category:hover .card:hover{
+    opacity: 1;
+    filter: none;
+}
+
 
 
 .list{
